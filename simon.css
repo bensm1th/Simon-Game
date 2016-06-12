@@ -152,21 +152,6 @@ td {
     background-color: dodgerblue;
 }
 
-.yellowlight {
-    background-color: #fed93f;
-}
-
-.bluelight {
-    background-color: #1c8cff;
-}
-
-.redlight {
-    background-color: #ff4c4c;
-}
-
-.greenlight {
-    background-color: #13ff7c;
-}
 
 .inner {
     position: relative;
@@ -182,39 +167,24 @@ td {
 }
 
 @media screen and (max-width: 500px) {
+    /*#start, #strict, #count */
+    .inner, #start, #strict, #count {
+        margin-left: 5.25rem;
+        height: 2rem;
+        width: 2rem;
+        text-align: center;
+    }
     .container {
         top: 2.5rem;
-        -moz-transform: scale(0.6);
-        -ms-transform: scale(0.6);
-        -o-transform: scale(0.6);
-        -webkit-transform: scale(0.6);
-        transform: scale(0.6);
-        -o-transform-origin: 0 0;
-        -ms-transform-origin: 0 0;
-        -webkit-transform-origin: 0 0;
-        -moz-transform-origin: 0 0;
-        transform-origin: 0 0;
-    }
-    #simon {
-        margin-left: 2rem;
-    }
-    #wrapper {
-        left: -10%;
-    }
-    #second {
-        left: 30%
-    }
-    #count, #start, #strict, #on, #off {
-        text-align: right;
-        margin-left: 35%;
-        margin-top: -5%;
     }
     #count {
-        height: 3.5rem;
+        margin-top: -2rem;
     }
-    .inner {
-        display: inline-block;
+    #simon {
+        margin-top: -2.5rem;
+        margin-left: 2.75rem;
     }
 }
 
+*/
 
